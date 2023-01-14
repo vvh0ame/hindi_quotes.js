@@ -10,6 +10,13 @@ class HindiQuotes:
 	def get_random_quote(
 			self,
 			type: str = None) -> dict:
+		"""
+		Get the random quote in hindi language
+		Parameters:
+			type: (str): string <success, love, attitude, positive, motivational>
+		Returns: 
+			dict: random quote in hindi
+		"""
 		url = f"{self.api}/random"
 		if type:
 			url += "/{type}"
