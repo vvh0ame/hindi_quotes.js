@@ -11,7 +11,7 @@ class HindiQuotes:
 			self,
 			type: str = None) -> dict:
 		"""
-		Get the random quote in hindi language
+		Get random quote in hindi language
 		Parameters:
 			type: (str): string <success, love, attitude, positive, motivational>
 		Returns: 
