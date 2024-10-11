@@ -7,7 +7,7 @@ async function main() {
 	const { HindiQuotes } = require("./hindi_quotes.js")
 	const hindiQuotes = new HindiQuotes()
 	const randomQuote = await hindiQuotes.getRandomQuote()
-  console.log(randomQuote)
+	console.log(randomQuote)
 }
 
 main()
